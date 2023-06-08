@@ -1,0 +1,99 @@
+body {
+    background: rgb(180, 245, 245);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+input {
+    height: 30px;
+    border-radius: 10px;
+    width: 100%;
+    padding: 5px;
+    border-color: skyblue;
+    border-style: solid;
+    border-width: 2px;
+}
+textarea{
+    height: 200px;
+    border-radius: 10px;
+    width: 100%;
+    padding: 5px;
+    border-color: skyblue;
+    border-style: solid;
+    border-width: 2px;
+}
+
+select {
+    height: 30px;
+    border-radius: 10px;
+    width: 100%;
+    padding: 5px;
+    min-width: 120px;
+    border-color: skyblue;
+    border-style: solid;
+    border-width: 2px;
+}
+
+h1 {
+    color: black;
+}
+
+.subcontainer {
+    margin-top: 10%;
+    padding: 15px;
+    max-width: 350px;
+    border-radius: 25px 0px 25px 0px;
+    box-shadow: 1px 1px 5px black;
+    text-align: left;
+    background: #ffff;
+}
+
+.loginsubcontainer {
+    margin-top: 10%;
+    padding: 15px;
+    max-width: 350px;
+    border-radius: 25px 0px 25px 0px;
+    box-shadow: 1px 1px 5px black;
+    text-align: left;
+    background: #ffff;
+}
+
+.popup {
+    position: relative;
+    width: 90%;
+    margin-top: -30%;
+    padding: 15px;
+    max-width: 350px;
+    border-radius: 25px 25px 25px 25px;
+    box-shadow: 1px 1px 5px black;
+    text-align: left;
+    background: #ffff;
+    font-family: 'Times', sans-serif;
+    transition: transform 0.4s, top 0.4s;
+    transform: translate(0%, -100%) scale(0.1);
+    visibility: hidden;
+}
+
+.popup h1 {
+    align-items: center;
+    text-align: center;
+}
+
+.open-popup {
+    visibility: visible;
+    top: 0%;
+    transform: translate(110%, 100%) scale(1);
+}
+
+.popup button {
+    align-items: center;
+    text-align: center;
+    padding: 5px 20px;
+    border-radius: 5px;
+    outline: none;
+    color: black;
+    background: lightgreen;
+    border-width: 1.5px;
+    cursor: pointer;
+}
